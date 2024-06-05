@@ -22,3 +22,13 @@ The simulator includes two tracks. One is considered simple, while the other is 
     <p><em>Complex track</em></p>
   </div>
 </div>
+
+## Data Collection
+
+To initiate the process, an autonomous vehicle simulator is used. This simulator, provided from a source like Udacity, enables driving a virtual vehicle on predetermined tracks to generate training data. The simulator's capability to create your own visual dataset facilitates working on the problem. Some reasons why this feature is beneficial include:
+
+- The simulator simulates driving features such as having three cameras on the car. These three cameras are situated in the center, right, and left of the car's front, and continuously capture images during recording in training mode.
+  
+- Image flow is captured, and the location on the disk where the data will be saved can be set after pressing the record button. Image sets are sophisticatedly labeled with center, left, or right appendages denoting from which camera the image was captured.
+  
+In addition to the image dataset, it also creates a datalog.csv file. This file includes the current path of the image and relevant steering angle, throttle, brakes, and car speed at that moment.
