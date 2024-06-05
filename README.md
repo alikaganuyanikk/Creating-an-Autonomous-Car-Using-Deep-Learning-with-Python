@@ -46,3 +46,25 @@ In this section, data preparation is done before training an artificial intellig
   <p><em>Training and Validation Data Visualization</em></p>
 </div>
 
+### Preprocessing of Images
+
+#### Image Reading:
+The image file to be processed is read and converted into a matrix. This step establishes the basic data structure before processing.
+
+#### ROI Selection:
+ROI (Region of Interest) involves determining the region of interest on the image for processing. It's usually done to filter out unnecessary information or to focus only on a specific area.
+
+#### Color Space Conversion:
+Converting the image to different color spaces helps facilitate processing or emphasize certain features. For example, converting from RGB to YUV space can separate brightness and color information more effectively.
+
+#### Applying Gaussian Filter:
+Gaussian filter is used to reduce noise or smooth edges in an image. It reduces unwanted pixel fluctuations on the image.
+
+#### Resizing and Normalization:
+The image is resized to specific dimensions and then normalized to the range [0, 1] for pixel values. These steps ensure consistency in input data for processing.
+
+<div align="center">
+  <img src="images/Resim65.PNG" alt="Preprocessing of Images">
+  <p><em>
+Original Image and Preprocessed Image Output</em></p>
+</div>
