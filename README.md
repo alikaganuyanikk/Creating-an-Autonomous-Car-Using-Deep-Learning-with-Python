@@ -1,2 +1,5 @@
 # Creating-an-Autonomous-Car-Using-Deep-Learning-with-Python
 Complete Guide to Self-Driving Car with Udacity's Car Simulator Environment and Deep Neural Networks
+### Understanding Behavioral Cloning
+
+Behavioral cloning is a technique used in autonomous vehicle systems. In this approach, instances where a human or an expert takes control of the vehicle and guides it to perform a specific task are recorded. Later, these recorded data are used to train an artificial intelligence model. This model attempts to mimic the movements and decisions made by the human or expert. As a result, autonomous vehicles can exhibit human-like behaviors and accomplish specific tasks using this model.
