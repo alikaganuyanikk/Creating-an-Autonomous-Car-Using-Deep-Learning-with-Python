@@ -32,8 +32,4 @@ To initiate the process, an autonomous vehicle simulator is used. This simulator
 - Image flow is captured, and the location on the disk where the data will be saved can be set after pressing the record button. Image sets are sophisticatedly labeled with center, left, or right appendages denoting from which camera the image was captured.
   
 In addition to the image dataset, it also creates a datalog.csv file. This file includes the current path of the image and relevant steering angle, throttle, brakes, and car speed at that moment.
-## Data Log Columns
 
-| Column 1       | Column 2    | Column 3 | Column 4    | Column 5        | Column 6        | Column 7   |
-|----------------|-------------|----------|-------------|-----------------|-----------------|------------|
-| Steering Angle | Left Camera | Right Camera | Throttle/Acceleration | Brake/Deceleration | Vehicle Speed |
