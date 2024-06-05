@@ -33,3 +33,16 @@ To initiate the process, an autonomous vehicle simulator is used. This simulator
   
 In addition to the image dataset, it also creates a datalog.csv file. This file includes the current path of the image and relevant steering angle, throttle, brakes, and car speed at that moment.
 
+### Optimizing Data Distribution
+In my self-driving car project, I've noticed that my training data tends to favor straight paths. This could potentially lead to my model developing a bias towards continuously driving straight. To address this issue, I'll apply some preprocessing techniques to ensure my car can navigate reliably on the challenge track.
+
+I need to flatten my data distribution and remove unnecessary samples from bins with frequencies exceeding 200. By optimizing my data distribution, I'll be better prepared to train my model effectively.
+
+### Training and Validation Split
+In this section, data preparation is done before training an artificial intelligence model for autonomous driving. Firstly, the data is loaded, and steering angles corresponding to image files are stored. Then, the data is split into random training and validation datasets. The distribution of steering angles is checked for both datasets and visualized with histograms.
+
+<div align="center">
+  <img src="images/Resim64.PNG" alt="Training and Validation Split">
+  <p><em>Training and Validation Data Visualization</em></p>
+</div>
+
