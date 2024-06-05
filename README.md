@@ -12,3 +12,13 @@ Behavioral cloning is a technique used in autonomous vehicle systems. In this ap
 Udacity's autonomous vehicle simulator offers students the opportunity to develop autonomous vehicle software. It provides an environment that mimics real-world scenarios, allowing students to practice, debug, and enhance their skills. This simulator provides students with real-world experience while reducing costs and risks.
 
 The simulator includes two tracks. One is considered simple, while the other is more complex. Here, "simple" implies tracks with fewer curves and easier driving. The simulator has two modes for driving: (1) Training mode and (2) Autonomous mode. The Training mode offers the option to record your driving and capture training datasets.
+<div align="center">
+  <div style="display: inline-block; margin-right: 10px;">
+    <img src="images/Resim61.PNG" alt="Result1" width="400">
+    <p><em>Basic track</em></p>
+  </div>
+  <div style="display: inline-block;">
+    <img src="images/Resim62.PNG" alt="Result2" width="400">
+    <p><em>Complex track</em></p>
+  </div>
+</div>
